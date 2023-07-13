@@ -1,7 +1,7 @@
 let vid = document.getElementById("video");
 setInterval(function () {
-	vid.currentTime = window.pageYOffset /320;
-}, 225);
+	vid.currentTime = window.pageYOffset /800;
+}, 235);
 // 1000 frames, 100 milliseconds
 
 function swRegistration() {
