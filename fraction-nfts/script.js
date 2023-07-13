@@ -1,6 +1,6 @@
 let vid = document.getElementById("video");
 setInterval(function () {
-	vid.currentTime = window.pageYOffset /800;
+	vid.currentTime = window.pageYOffset /100;
 }, 235);
 // 1000 frames, 100 milliseconds
 
